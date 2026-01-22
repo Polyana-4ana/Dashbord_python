@@ -50,7 +50,6 @@ Este projeto ainda está em desenvolvimento. Como melhorias futuras, pretendo:
 - Adicionar **gráficos interativos**
 - Melhorar o **design e a usabilidade**
 - Integrar com um **banco de dados**
-- Implementar **autenticação**
 
 ---
 
