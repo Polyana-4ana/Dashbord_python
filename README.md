@@ -51,7 +51,6 @@ Este projeto ainda está em desenvolvimento. Como melhorias futuras, pretendo:
 - Melhorar o **design e a usabilidade**
 - Integrar com um **banco de dados**
 - Implementar **autenticação**
-- Otimizar performance para grandes volumes de dados
 
 ---
 
