@@ -18,7 +18,6 @@ numpy
 packaging
 pandas
 pillow
-pip
 plotly
 protobuf
 pyarrow
