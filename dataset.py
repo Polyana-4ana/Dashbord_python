@@ -1,16 +1,15 @@
 import json
 import pandas as pd
 
+# lendo o arquivo json corretamente
+with open('dados/vendas.json', encoding='utf-8') as file:
+    data = json.load(file)
 
-# fazendo o python ler o arquivo json
-file = open('dados/vendas.json')
-data = json.load(file)
-
-#print(data)
-
-#criando dataframe baseado em dicionario
+# criando dataframe
 df = pd.DataFrame.from_dict(data)
 
-print(df)
-
-file.close()
+# convertendo a coluna de data
+df['Data da Compra'] = pd.to_datetime(
+    df['Data da Compra'],
+    format='%d/%m/%y'
+)
