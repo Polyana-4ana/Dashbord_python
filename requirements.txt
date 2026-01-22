@@ -1,7 +1,4 @@
-streamlit==1.32.2
-pandas==2.2.2
-altair==5.3.0
-numpy
+streamlit>=1.30
+pandas
 plotly
-requests
-pillow
+numpy
